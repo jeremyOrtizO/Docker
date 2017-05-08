@@ -4,9 +4,7 @@ machine:
     services:
         - docker
 
-dependencies:
-    override:
-        - sudo pip install -U docker-compose
+
 
 test:
     override:
